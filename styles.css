@@ -214,3 +214,6 @@ body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opac
 a:focus-visible,button:focus-visible{outline:2px solid var(--acid);outline-offset:5px;border-radius:3px}
 .menu-toggle{border-radius:8px}
 @media(max-width:650px){.about-links{gap:12px 14px}.contact-cv{margin-top:16px}}
+
+.contact-layout .contact-cv{display:flex;width:fit-content;max-width:100%;margin-top:14px}
+.about-copy .about-links>a{flex:0 0 auto}
